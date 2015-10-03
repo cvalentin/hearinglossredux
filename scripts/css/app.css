@@ -118,7 +118,11 @@ section {
 /******************************** HOME PAGE ************************************/
 /*******************************************************************************/
 
-.mission-statement p {
+#home-carousel {
+    margin-top: 20px;
+}
+
+#mission-statement p {
     font-size: 25pt;
 }
 
@@ -131,6 +135,12 @@ section {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
+    height: 100%;
+}
+
+.home-tile img {
+    display: block;
+    margin: auto;
 }
 
 .home-tile p {
