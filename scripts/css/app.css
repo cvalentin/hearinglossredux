@@ -98,7 +98,20 @@ p.footer, ul.footer {
     list-style-type: none;
 }
 
-/*********************** End Volunteer CSS **/
+/*********************** End Volunteerx` CSS **/
+
+/********* Donate CSS **/
+
+.donate-header {
+    margin-top: 21px;
+}
+
+.donate-line {
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+}
+
+/********** End donate CSS **/
 
 /*******************************************************************************/
 /******************************** SHARED ***************************************/
@@ -150,5 +163,6 @@ section {
 .home-tile h3 {
     text-align: center;
 }
+
 
 /******************************** END HOME PAGE ********************************/
