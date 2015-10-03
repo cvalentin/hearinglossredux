@@ -18,3 +18,19 @@
                   </div>
               </div>
             </footer>
+
+             </div>
+        </div>
+       
+
+        <script src="scripts/js/vendor/jquery.js"></script>
+        <script src="scripts/js/foundation.min.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
+       
+    
+    
+
+    </body>
+</html>
