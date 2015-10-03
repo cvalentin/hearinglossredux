@@ -66,7 +66,16 @@ p.footer, ul.footer {
 
 /** Location CSS **/
 
-.location-header {
-    padding-left: 30px;
-    padding-right: 30px;
+.loc-element {
+    border: 1px solid #BBBBBB;
+    height: 150px;
+}
+
+.loc-thumb {
+    margin-left: 10px;
+    margin-top: 21px;
+}
+
+.loc-content {
+    margin-top: 10px;
 }
