@@ -30,6 +30,9 @@ p.footer, ul.footer {
     background: #888888;
 }
 
+/******************************** END NAVIGATION *******************************/
+
+
 /** reminder **/
 
 /** Changes the active menu item from default black to a gradient **/
@@ -67,7 +70,7 @@ p.footer, ul.footer {
 }
 
 
-/** Location CSS **/
+/*********************** Location CSS **/
 
 .loc-element {
     border: 1px solid #BBBBBB;
@@ -83,7 +86,19 @@ p.footer, ul.footer {
     margin-top: 10px;
 }
 
-/******************************** END NAVIGATION *******************************/
+/*********************** End Location CSS **/
+
+/** Volunteer CSS **/
+
+.volunteer-video {
+    margin-top: 10px;
+}
+
+.hof-list ul {
+    list-style-type: none;
+}
+
+/*********************** End Volunteer CSS **/
 
 /*******************************************************************************/
 /******************************** SHARED ***************************************/
