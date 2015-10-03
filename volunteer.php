@@ -1,26 +1,44 @@
 <?php require("header.php"); ?>
 
-    <a href="https://www.youtube.com/watch?v=VCFCiojuA2E">Link to Video</a>
-    
-    <h4>Volunteer Opportunities for Professionals</h4>
-    <p>We welcome credentialed audiologists, speech language pathologists, 
-    early intervention specialists, and deaf education professionals to 
-    join our volunteer team.   If you are interested in helping children 
-    with hearing loss in low and middle income countries, we'd love to 
-    hear from you! Involvement with our programs typically requires a 2 
-    week in-country commitment.  Applicants must have at least a Master's 
-    degree in audiology, deaf education, or speech pathology. Click here 
-    for perspectives on the experience from some of our volunteer 
-    professionals. To apply, please send a cover letter and resume to 
-    info@childrenwithhearingloss.org<p>
+<div class = "row">
+	<div class = "small-8 small-centered columns">
+		<!-- video -->
+		<div class = "flex-video widescreen volunteer-video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/VCFCiojuA2E" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
 
-    <h4>Volunteer Opportunities for Graduate Students</h4>
-    <p>Are you a graduate student in deaf education, audiology or speech pathology interested to support our programs? Please email info@childrenwithhearingloss.org for information about how to apply.</p>
+<div class="row">
+	<div class = "small-12 small-centered columns">
+	<h2>Volunteer Opportunities for Professionals</h2><br>	
+	<p>
+		We welcome credentialed audiologists, speech language pathologists, 
+	    early intervention specialists, and deaf education professionals to 
+	    join our volunteer team.   If you are interested in helping children 
+	    with hearing loss in low and middle income countries, we'd love to 
+	    hear from you! Involvement with our programs typically requires a 2 
+	    week in-country commitment.  Applicants must have at least a Master's 
+	    degree in audiology, deaf education, or speech pathology. Click here 
+	    for perspectives on the experience from some of our volunteer 
+	    professionals. To apply, please send a cover letter and resume to 
+	    <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a>
+	</p>
+	</div>
+</div>
 
-    <h4>Hall of Fame</h4>
+<div class="row">
+	<div class = "small-12 small-centered columns">
+	<h2>Volunteer Opportunities for Graduate Students</h2><br>	
+	<p>
+	    Are you a graduate student in deaf education, audiology or speech pathology interested to support our programs? Please email info@childrenwithhearingloss.org for information about how to apply.
+	</p>
+	</div>
+</div>
 
-    <div class="row">
-    	<div class="large-12 columns">
+<div class="row">
+	<h2>Hall of Fame</h2>
+	<div class="small-12 columns hof-list">
     		<div class="row">
     			<div class="large-6 small-12 columns">
     				<ul>
@@ -93,8 +111,8 @@
     				</ul>
     			</div>
     		</div>
-    	</div>
+</div>
 
-    </div>
+
 
 <?php require("footer.php"); ?>
