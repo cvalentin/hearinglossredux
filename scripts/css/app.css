@@ -118,9 +118,27 @@ section {
 /******************************** HOME PAGE ************************************/
 /*******************************************************************************/
 
+.mission-statement p {
+    font-size: 25pt;
+}
+
+.home-tile-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .home-tile {
     border: 1px solid black;
     border-radius: 5px;
+    padding: 10px;
+}
+
+.home-tile p {
+    margin-top: 10px;
+}
+
+.home-tile h3 {
+    text-align: center;
 }
 
 /******************************** END HOME PAGE ********************************/
