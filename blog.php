@@ -58,21 +58,21 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 			$hasImages = count($post->images) > 0;
 			$columnStyle;
 			if($hasImages){
-				$columnStyle = "small-8";
+				$columnStyle = "small-12 medium-6 large-8";
 			} else {
-				$columnStyle = "small-12";
+				$columnStyle = "small-12 medium-12 large-12";
 			}
 
 			if($hasImages){
 		?>
-			<div class="blog-image small-4 column">
+			<div class="blog-image-container small-12 medium-6 large-4 column">
 				<img src="<?php echo $post->images[0]->url; ?>" />
 			</div>
 		<?php
 			}
 		?>
 			<div class="blog-text <?php echo $columnStyle ?> column">
-				<h5><?php echo $post->title; ?></h5>
+				<h4><?php echo $post->title; ?></h4>
 				<p>
 				<?php
 					echo limitWords($post->content, 85);

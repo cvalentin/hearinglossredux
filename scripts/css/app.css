@@ -240,6 +240,10 @@ footer p {
     margin-top: 10px;
 }
 
+.blog-image-container {
+    text-align: center;
+}
+
 /* ======================== Shared ======================== */
 
 .highlighted {
