@@ -85,7 +85,6 @@ Grey: #efefef; */
 }
  
 
-
 .contain-to-grid .top-bar {
     padding-bottom: 10px;
 }
@@ -265,6 +264,10 @@ p{
 
 .highlighted {
     color: #f96707;
+}
+
+.highlight-this:hover{
+    background-color: red; 
 }
 
 .full-width {
