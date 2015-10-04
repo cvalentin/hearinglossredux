@@ -15,7 +15,7 @@
 		<div class = "large-4 small-12 columns">
 			<h2>Donate Online</h2>
 			<p>Contributions via PayPal can be made by clicking on the "Donate with PayPal" button.</p>
-			<img id = "donate-button" src="images/paypal-button.gif">
+			<a href="http://childrenwithhearingloss.org/images/paypal-button.gif"><img id = "donate-button" src="images/paypal-button.gif"></a>
 		</div>
 		<div class = "large-4 small-12 columns donate-line">
 			<h2>Donate by Check</h2>
