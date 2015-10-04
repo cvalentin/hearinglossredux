@@ -17,7 +17,7 @@ p.footer, ul.footer {
 .top-bar{
     background: none;
     background-color: white;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .top-bar .name h1 a{
