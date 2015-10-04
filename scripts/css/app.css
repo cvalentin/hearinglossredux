@@ -28,7 +28,6 @@ Grey: #efefef; */
 .top-bar-section ul {
     background: none;
     text-transform: uppercase;
-    padding-top: 5px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
@@ -242,6 +241,7 @@ footer hr{
 
 .hof-list ul {
     list-style-type: none;
+    margin-left: 0;
 }
 
 /******** Blog **********/
@@ -257,6 +257,11 @@ footer hr{
 
 .blog-image-container img {
     width: 100%;
+}
+
+.blog-date {
+    font-style: italic;
+    font-size: 10pt;
 }
 
 /* ======================== Shared ======================== */
@@ -288,4 +293,8 @@ footer hr{
     padding-bottom: 25px;
     padding-top: 25px;
     border-bottom: 1px solid #DDDDDD;
+}
+
+#login-button {
+    margin-left: 5px;
 }
