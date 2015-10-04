@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	$(document).foundation();
-	$('.image-carousel').slick({
-		autoplay: true,
-		dots: true
+	$(document).foundation({
+		orbit: {
+			slide_number: false,
+			bullets: false
+		}
 	});
 });

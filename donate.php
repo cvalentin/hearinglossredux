@@ -1,6 +1,6 @@
 <?php require("header.php"); ?>
 <div class = "row">
-	<div class= "small-11 small-centered columns">
+	<div class= "large-11 small-12 small-centered columns">
 		<h3 class = "text-center donate-header">
 			Supply of hearing aids in developing countries meets just 3% of demand. <br>
 			Let's close the gap.
@@ -12,8 +12,8 @@
 		<hr>
 		<div class = "large-4 small-12 columns">
 			<h2>Donate Online</h2>
-			Image goes here <br>
 			<p>Contributions via PayPal can be made by clicking on the "Donate with PayPal" button.</p>
+			<img id = "donate-button" src="images/paypal-button.gif">
 		</div>
 		<div class = "large-4 small-12 columns donate-line">
 			<h2>Donate by Check</h2>

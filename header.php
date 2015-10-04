@@ -14,18 +14,15 @@ $page_name = "Home";
       <meta name="viewport" content="width=device-width" />
       <link rel="stylesheet" href="scripts/css/foundation.css">
       <link rel="stylesheet" href="scripts/css/app.css">
-      <link rel="stylesheet" href="scripts/slick/slick.css">
-      <link rel="stylesheet" href="scripts/slick/slick-theme.css">
-      <script src="scripts/js/vendor/modernizr.js"></script>
       <script src="scripts/js/vendor/modernizr.js"></script>
     </head>
     <body>
 
-    <div class="sticky navbar">
+    <div class="fixed navbar">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <img src="images/symbol.png" id="logo">
+            <img src="images/symbol.png" id="logo" class="show-for-large-only">
             <h1 id="logo_name">Global Foundation for Children With Hearing Loss</h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->

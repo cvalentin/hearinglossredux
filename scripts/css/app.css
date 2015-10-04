@@ -17,6 +17,10 @@ Grey: #efefef; */
     margin-bottom: 10px;
 }
 
+.top-bar.expanded .title-area {
+    background: none;
+}
+
 .top-bar .name h1 a{
     color: #000;
 }
@@ -69,6 +73,10 @@ Grey: #efefef; */
     line-height: normal;
     margin-top: 5px;
     color: #1d69ad;
+}
+
+#logo{
+    float:left;
 }
 
 
@@ -129,13 +137,24 @@ footer p {
     margin-top: 20px;
 }
 
-#mission-statement p {
+#mission-statement-large, #mission-statement-small {
+    text-align: justify;
+}
+
+#mission-statement-large p {
     font-size: 25pt;
 }
 
+#mission-statement-small p {
+    font-size: 12pt;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
 .home-tile-container {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .home-tile {
@@ -143,6 +162,7 @@ footer p {
     border-radius: 5px;
     padding: 10px;
     height: 100%;
+    margin-bottom: 15px;
 }
 
 .home-tile img {
@@ -162,7 +182,7 @@ footer p {
 
 .loc-element {
     border: 1px solid #BBBBBB;
-    height: 150px;
+    min-height: 150px;
 }
 
 .loc-thumb {
@@ -197,6 +217,12 @@ footer p {
     border-left: 1px solid #DDD;
 }
 
+#donate-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /****** Volunteers ******/
 
@@ -227,3 +253,7 @@ footer p {
     margin-right: auto;
 }
 
+.row {
+    padding-left: 5px;
+    padding-right: 5px;
+}
