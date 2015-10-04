@@ -60,7 +60,6 @@ Grey: #efefef; */
 }
 
 .name h1{
-    border-left: 1px solid black;
     display: inline-block;
     width: 275px;
     padding-left: 10px;
@@ -72,6 +71,7 @@ Grey: #efefef; */
     line-height: normal;
     margin-top: 5px;
     color: #1d69ad;
+
 }
 
 #logo{
