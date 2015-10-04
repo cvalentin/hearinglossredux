@@ -9,10 +9,10 @@ $page_name = "Home";
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $page_name . " - " . $title; ?></title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <link rel="stylesheet" href="scripts/css/foundation.css">
-      <!-- This is how you would link your custom stylesheet -->
+      <title><?php echo $page_name . " - " . $title; ?></title>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width" />
+      <link rel="stylesheet" href="scripts/css/foundation.css">
       <link rel="stylesheet" href="scripts/css/app.css">
       <link rel="stylesheet" href="scripts/slick/slick.css">
       <link rel="stylesheet" href="scripts/slick/slick-theme.css">
