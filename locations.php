@@ -1,19 +1,20 @@
 <?php require("header.php"); ?>
 
-<div class="row"> 
-	<div class = "large-10 small-12 small-centered columns">
-		<h3 class = "text-center"> 
-			The Global Foundation for Children With Hearing Loss aims to make a direct and lasting impact on the futures of thousands of deaf and hard of hearing children around the world.
-		</h3>
+<div class="headline-section">
+	<div class="row"> 
+		<div class = "large-10 small-12 small-centered columns">
+			<h3 class = "text-center"> 
+				The Global Foundation for Children With Hearing Loss aims to make a direct and lasting impact on the <span class="highlighted">futures of thousands of deaf and hard of hearing children</span> around the world.
+			</h3>
+		</div>
+	</div>
 </div>
-
-<hr>
 
 <div class = "row">
 	<div class = "large-2 small-12 columns">
 		<!-- Thumbnail -->
 		<a class="th loc-thumb" href="#">
-				<img class = "center-img" src="../images/locations/Vietnam.jpg">
+			<img src="/images/locations/Vietnam.jpg">
 		</a>
 	</div>
 	<div class = "large-10 small-12 columns loc-content">

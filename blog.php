@@ -59,6 +59,8 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 ?>
 		<?php foreach($postsList as $key => $post) 
 		{
+			$createDate = new DateTime($post->updated);
+			$postDate = $createDate->format('m-d-d');
 		?>
 		<div class="blog-row row">
 		<?php
@@ -81,6 +83,7 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 			?>
 			<div class="blog-text <?php echo $columnStyle ?> column">
 				<h4><?php echo $post->title; ?></h4>
+				<p class="blog-date">Last Updated: <?php echo $postDate ?> </p>
 				<p>
 				<?php
 					echo limitWords($post->content, 85);
