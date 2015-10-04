@@ -12,16 +12,29 @@
 					<img class = "th" src="images/video-placeholder.jpg" title="Talk Vietnam w/ Paige Stringer">				
 				</a>
 			</li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
-			<li><img class = "th" src="images/video-placeholder.jpg"></li>
+			<li>
+				<a href="pdfs/AGBellVV_2013_FINAL.pdf">
+					<img class = "th" src="images/file-placeholder.png" title="Exploring Diversity and Expanding Our Reach">					
+				</a>
+			</li>
+			<li>
+				<a href="pdfs/Australia_Audiology_Now_2012.pdf">
+					<img class = "th" src="images/file-placeholder.png" 
+					title="Building Professional Expertise To Support Children With Hearing Loss in Vietnam">					
+				</a>
+			</li>
+			<li>
+				<a href="pdfs/Demant_EN_000.pdf">
+					<img class = "th" src="images/file-placeholder.png" 
+					title="Good Morning Vietnam">					
+				</a>
+			</li>
+			<li>
+				<a href="pdfs/GoodMorningVietnam_Demant_Danish.pdf">
+					<img class = "th" src="images/file-placeholder.png" 
+					title="Good Morning Vietnam">					
+				</a>
+			</li>
 		</ul>
 	</div>
 </div>
