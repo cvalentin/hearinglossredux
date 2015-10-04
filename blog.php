@@ -79,7 +79,7 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 				?>
 				...
 				</p>
-				<p><a href="...">...read more</a></p>
+				<p><a href="<?php echo $post->url ?>">...read more</a></p>
 			</div>
 		</div>
 		<?php } ?>
