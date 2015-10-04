@@ -15,7 +15,7 @@
 	</div>
 </section>
 
-<section>
+<section class="teststuff">
 	<hr>
 	<div class="home-tile-container row small-collapse large-uncollapse" data-equalizer>
 		<div class="small-12 medium-4 large-4 column" data-equalizer-watch>
