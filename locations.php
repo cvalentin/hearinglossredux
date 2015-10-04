@@ -26,7 +26,7 @@
 	<div class="large-10 small-12 columns loc-content">
 		<h4>Ecuador Deaf Education Program</h4>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
+			The Global Foundation For Children With Hearing Loss is expanding its work to Ecuador in a three year initiative with the Ecuador Ministry of Health. Greater awareness, systematic improvements to the quality of care in prevention, diagnosis and habilitation, and the training of locally-based professionals will enable the country to more fully leverage their pediatric hearing health program. More information to come soon about this exciting new program.
 		</p>
 	</div>
 	<hr>
