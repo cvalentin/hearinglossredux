@@ -20,7 +20,38 @@ $page_name = "Home";
       <script src="scripts/js/vendor/modernizr.js"></script>
     </head>
     <body>
-        <nav class="top-bar" data-topbar>
+
+    <div class="sticky">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1>Global Foundation for Children With Hearing Loss</h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li id="menu-icon" class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Media</a></li>
+            <button>Login</button>
+          </ul>
+          <!-- Left Nav Section -->
+          <ul class="left">
+            
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    <!--
+        <nav class="top-bar data-topbar">
           <ul class="title-area">
             <li class="name">
               <h1><a href="#"><?php echo $title ?></a></h1>
@@ -28,19 +59,19 @@ $page_name = "Home";
             <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
           </ul>
           <section class="top-bar-section">
+            <ul class="title-area">
+              Global Foundation for Children With Hearing Loss
+            </ul>
             <ul class="right">
-              <li><a href="#">Main Item 1</a></li>
-              <li><a href="#">Main Item 2</a></li>
-              <li class="has-dropdown">
-                <a href="#">Main Item 3</a>
-                <ul class="dropdown">
-                  <li><a href="#">Dropdown Option</a></li>
-                  <li><a href="#">Dropdown Option</a></li>
-                  <li><a href="#">Dropdown Option</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">See all →</a></li>
-                </ul>
-              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Volunteer</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Media</a></li>
+              <button>Login</button>
             </ul>
           </section>
         </nav>
+        -->

@@ -17,10 +17,11 @@
 				</a>
 			</div>
 			<div class = "small-10 columns loc-content">
-				<h4>This is a title.</h4>
+				<h4>Vietnam Deaf Education Program</h4>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
 				</p>
+				<a href="#">Link to more content</a>
 			</div>
 		</div>
 	</div>
@@ -35,10 +36,11 @@
 				</a>
 			</div>
 			<div class = "small-10 columns loc-content">
-				<h4>This is a title.</h4>
+				<h4>Ecuador Accessiblity Initiative</h4>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
 				</p>
+				<a href="#">Link to more content</a>				
 			</div>
 		</div>
 	</div>
@@ -53,10 +55,11 @@
 				</a>
 			</div>
 			<div class = "small-10 columns loc-content">
-				<h4>This is a title.</h4>
+				<h4>This is a title</h4>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
 				</p>
+				<a href="#">Link to more content</a>
 			</div>
 		</div>
 	</div>

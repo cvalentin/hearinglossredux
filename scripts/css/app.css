@@ -4,10 +4,9 @@ p.footer, ul.footer {
 }
 
 /* Navigation Bar */
-.top-bar {
+.top-bar{
     background: none;
-    border-bottom-style: solid;
-    border-width: 1px;
+    background-color: white;
 }
 
 .top-bar .name h1 a{
@@ -26,6 +25,24 @@ p.footer, ul.footer {
 .top-bar-section li.divider {
 	background: #888888;
 }
+
+.top-bar .expanded > .title-area{
+    background-color: #efefef;
+}
+
+#menu-icon{
+    background-color: #efefef;
+    color: black;
+}
+
+#menu-icon > a{
+    color:black;
+}
+
+#menu-icon a span::after{
+    box-shadow:0 0 0 1px #000000, 0 7px 0 1px #000000, 0 14px 0 1px #000000;
+}
+
 
 /** reminder **/
 
