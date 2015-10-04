@@ -2,9 +2,10 @@
 
 <section> 
 	<div id="home-carousel"class="image-carousel row small-12">
-		<div><img src="http://placehold.it/1000x400&text=[ img 1 ]" /></div>
-		<div><img src="http://placehold.it/1000x400&text=[ img 2 ]" /></div>
-		<div><img src="http://placehold.it/1000x400&text=[ img 3 ]" /></div>
+		<div><img src="images/home/home-1.jpg"/></div>
+		<div><img src="images/home/home-2.jpg"/></div>
+		<div><img src="images/home/home-3.jpg"/></div>
+		<div><img src="images/home/home-4.jpg"/></div>
 	</div>
 </section>
 <section>
