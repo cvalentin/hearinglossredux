@@ -15,7 +15,7 @@ class HttpContent {
     // https://console.developers.google.com/project/gcwhl-blogger/apiui/credential
     // Log in with paige's google account to view the key and related information.
 	public $key = 'AIzaSyDuk95h9wdFcgK4WkpyP6I1DtWUCG_zI8Y';
-    public $maxResults = 10; // max number of posts in result set
+    public $maxResults = 5; // max number of posts in result set
     public $orderBy = 'published'; // most recently published first
     public $fetchImages = 'true';
     
@@ -29,7 +29,6 @@ class HttpContent {
 function CallAPI($method, $url, $data)
 {
 	$url = sprintf("%s?%s", $url, http_build_query($data));
-	echo $url;
     $curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 	$curl_response = curl_exec($curl);
