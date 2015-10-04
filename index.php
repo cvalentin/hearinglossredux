@@ -1,5 +1,5 @@
 <?php require("header.php"); ?>
-
+<div class = "headline-section">
 	<div class="row">
 		<div class="small-12 column">
 			<div class="image-carousel">
@@ -10,9 +10,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 <div class="row">
-	<div id="mission-statement-large" class="large-12 show-for-large-only">
+	<div id="mission-statement-large" class="large-12 show-for-large-up">
 		<p class="text-xlarge">The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
 	</div>
 	<div id="mission-statement-small" class="small-12 show-for-small-up hide-for-large-up">
