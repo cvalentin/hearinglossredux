@@ -24,6 +24,7 @@
 				Talk Vietnam, a national Vietnamese television show, shed light on pediatric hearing loss in Vietnam and what the Global Foundation and the Vietnamese deaf education and health care communities are doing to help support children with hearing loss.
 			</p>
 		</div>
+
 	</div>
 </div>
 <hr>
@@ -42,7 +43,6 @@
 		</p>
 	</div>
 </div>
-<hr>
 
 <!-- use this template to add more countries
 <div class = "row">

@@ -1,8 +1,10 @@
-$(document).ready(function(){
-	$(document).foundation({
-		orbit: {
-			slide_number: false,
-			bullets: false
-		}
+$(document).load(function{
+	$('.image-carousel').slick({
+		dots: true,
+		mobileFirst: true
 	});
+});
+
+$(document).ready(function(){
+	$(document).foundation();
 });
