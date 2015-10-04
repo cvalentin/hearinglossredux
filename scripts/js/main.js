@@ -1,13 +1,8 @@
 $(document).ready(function(){
-	$(document).foundation({
-		orbit: {
-			slide_number: false,
-			bullets: false,
-			timer_speed: 2000,
-			timer: true
+	$(document).foundation();
 
-		}
-	});
-
-	$(document).foundation('orbit', 'start'); // stop_timer, toggle_timer
+	$('.image-carousel').slick({
+		dots: true,
+		mobileFirst: true
+	})
 });
