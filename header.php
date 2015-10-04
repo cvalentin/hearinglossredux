@@ -18,7 +18,7 @@ $page_name = "Home";
     </head>
     <body>
 
-    <div class="fixed navbar">
+    <div class="fixed contain-to-grid navbar">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
