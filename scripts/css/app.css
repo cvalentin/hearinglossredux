@@ -1,19 +1,7 @@
-/* CONSTANTS
-Blue: #1d69ad;
-Orange: #f96707;
-Brown: #665431;
-Grey: #efefef;
+/* ======================== Template ======================== */
 
-*/
-p.footer, ul.footer {
-	font-size: 12px;
+/****** Navigation ******/
 
-}
-
-/*******************************************************************************/
-/******************************** NAVIGATION ***********************************/
-/*******************************************************************************/
-/* Navigation Bar */
 .top-bar{
     background: none;
     background-color: white;
@@ -37,13 +25,11 @@ p.footer, ul.footer {
     background: #888888;
 }
 
-/******************************** END NAVIGATION *******************************/
-.top-bar .expanded > .title-area{
+.top-bar .expanded > .title-area, #menu-icon{
     background-color: #efefef;
 }
 
 #menu-icon{
-    background-color: #efefef;
     color: black;
 }
 
@@ -75,7 +61,6 @@ p.footer, ul.footer {
     color: #1d69ad;
 }
 
-/** reminder **/
 
 /** Changes the active menu item from default black to a gradient **/
 .top-bar-section ul li:active {
@@ -112,89 +97,19 @@ p.footer, ul.footer {
 }
 
 
-/*********************** Location CSS **/
+/****** Footer ******/
 
-.loc-element {
-    border: 1px solid #BBBBBB;
-    height: 150px;
+footer div {
+    text-align: center;
 }
 
-.loc-thumb {
-    margin-left: 10px;
-    margin-top: 21px;
+footer p {
+    margin-bottom: 0;
 }
 
-.loc-content {
-    margin-top: 10px;
-}
+/* ======================== Pages ======================== */
 
-/*********************** End Location CSS **/
-
-/** Volunteer CSS **/
-
-.volunteer-video {
-    margin-top: 10px;
-}
-
-.hof-list ul {
-    list-style-type: none;
-}
-
-/*********************** End Volunteerx` CSS **/
-
-/********* Donate CSS **/
-
-.donate-header {
-    margin-top: 21px;
-}
-
-.donate-line {
-    border-right: 1px solid #DDD;
-    border-left: 1px solid #DDD;
-}
-
-/********** End donate CSS **/
-
-/********* About CSS **/
-
-
-/********** End About CSS **/
-
-/********* Media CSS **/
-
-.media-container{
-    margin-top: 10px;
-}
-
-.navbar{
-    border-bottom: 1px solid #000;
-}
-
-/********** End Media CSS **/
-
-
-/*******************************************************************************/
-/******************************** SHARED ***************************************/
-/*******************************************************************************/
-
-
-
-.highlighted {
-    color: blue;
-}
-
-.full-width {
-    width: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/******************************** END SHARED ***********************************/
-
-/*******************************************************************************/
-/******************************** HOME PAGE ************************************/
-/*******************************************************************************/
+/****** Index ******/
 
 #home-carousel {
     margin-top: 20px;
@@ -229,20 +144,66 @@ p.footer, ul.footer {
     text-align: center;
 }
 
+/****** Location ******/
 
-/******************************** END HOME PAGE ********************************/
-
-
-/*******************************************************************************/
-/******************************** FOOTER ***************************************/
-/*******************************************************************************/
-
-footer div {
-    text-align: center;
+.loc-element {
+    border: 1px solid #BBBBBB;
+    height: 150px;
 }
 
-footer p {
-    margin-bottom: 0;
+.loc-thumb {
+    margin-left: 10px;
+    margin-top: 21px;
 }
 
-/******************************** END FOOTER ***********************************/
+.loc-content {
+    margin-top: 10px;
+}
+
+/****** Media ******/
+
+.media-container{
+    margin-top: 10px;
+}
+
+.navbar{
+    border-bottom: 1px solid #000;
+}
+
+
+/****** Donate ******/
+
+.donate-header {
+    margin-top: 21px;
+}
+
+.donate-line {
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+}
+
+
+/****** Volunteers ******/
+
+.volunteer-video {
+    margin-top: 10px;
+}
+
+.hof-list ul {
+    list-style-type: none;
+}
+
+/* ======================== Shared ======================== */
+
+.highlighted {
+    color: blue;
+}
+
+.full-width {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
