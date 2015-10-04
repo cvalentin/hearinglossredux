@@ -3,7 +3,7 @@
 	<div class= "large-11 small-12 small-centered columns">
 		<h3 class = "text-center donate-header">
 			Supply of hearing aids in developing countries meets just 3% of demand. <br>
-			Let's close the gap.
+			<span class="highlighted"> Let's close the gap.</span>
 		</h3> 
 	</div>
 </div>
