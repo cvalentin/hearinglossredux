@@ -13,9 +13,10 @@ $page_name = "Home";
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
       <link rel="stylesheet" href="scripts/css/foundation.css">
-      <link rel="stylesheet" href="scripts/css/app.css">
+      
       <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css"/>
+      <link rel="stylesheet" href="scripts/css/app.css">
       <script src="scripts/js/vendor/modernizr.js"></script>
     </head>
     <body>

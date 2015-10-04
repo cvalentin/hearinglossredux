@@ -168,8 +168,13 @@ footer hr{
 
 ul.slick-dots{
     margin: 0;
+    position: inherit;
+    bottom: 0;
 }
 
+.slick-slider {
+    margin-bottom: 0px;
+}
 /****** Location ******/
 
 .loc-element {

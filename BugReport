@@ -1,3 +1,6 @@
+[Layout]
+-	Body right margin / padding leaves empty space on mobile screens
+
 [Browser-Specific]
 
 [Design]
