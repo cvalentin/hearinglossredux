@@ -33,13 +33,13 @@ $page_name = "Home";
         <section class="top-bar-section">
           <!-- Right Nav Section -->
           <ul class="right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Donate</a></li>
-            <li><a href="#">Media</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="volunteer.php">Volunteer</a></li>
+            <li><a href="locations.php">Locations</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="donate.php">Donate</a></li>
+            <li><a href="media.php">Media</a></li>
             <button>Login</button>
           </ul>
           <!-- Left Nav Section -->
