@@ -1,7 +1,7 @@
 <?php require("header.php"); ?>
 
 <div class = "row">
-	<div class = "small-8 small-centered columns">
+	<div class = "large-8 small-12 small-centered columns">
 		<!-- video -->
 		<div class = "flex-video widescreen volunteer-video">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/VCFCiojuA2E" frameborder="0" allowfullscreen></iframe>

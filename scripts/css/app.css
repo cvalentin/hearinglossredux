@@ -17,6 +17,10 @@ Grey: #efefef; */
     margin-bottom: 10px;
 }
 
+.top-bar.expanded .title-area {
+    background: none;
+}
+
 .top-bar .name h1 a{
     color: #000;
 }
@@ -69,6 +73,10 @@ Grey: #efefef; */
     line-height: normal;
     margin-top: 5px;
     color: #1d69ad;
+}
+
+#logo{
+    float:left;
 }
 
 
@@ -162,7 +170,7 @@ footer p {
 
 .loc-element {
     border: 1px solid #BBBBBB;
-    height: 150px;
+    min-height: 150px;
 }
 
 .loc-thumb {
@@ -227,3 +235,7 @@ footer p {
     margin-right: auto;
 }
 
+.row {
+    padding-left: 5px;
+    padding-right: 5px;
+}

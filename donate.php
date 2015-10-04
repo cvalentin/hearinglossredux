@@ -1,6 +1,6 @@
 <?php require("header.php"); ?>
 <div class = "row">
-	<div class= "small-11 small-centered columns">
+	<div class= "large-11 small-12 small-centered columns">
 		<h3 class = "text-center donate-header">
 			Supply of hearing aids in developing countries meets just 3% of demand. <br>
 			Let's close the gap.
