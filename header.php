@@ -18,7 +18,7 @@ $page_name = "Home";
     </head>
     <body>
 
-    <div class="fixed navbar">
+    <div class="fixed contain-to-grid navbar">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
@@ -38,7 +38,7 @@ $page_name = "Home";
             <li><a href="blog.php">Blog</a></li>
             <li><a href="donate.php">Donate</a></li>
             <li><a href="media.php">Media</a></li>
-            <button>Login</button>
+            <button id = "login-button">Login</button>
           </ul>
           <!-- Left Nav Section -->
           <ul class="left">

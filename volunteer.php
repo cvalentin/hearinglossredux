@@ -7,6 +7,7 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/VCFCiojuA2E" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
+    <hr>
 </div>
 
 <div class="row">
@@ -25,6 +26,7 @@
 	    <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a>
 	</p>
 	</div>
+    <hr>
 </div>
 
 <div class="row">
@@ -34,6 +36,7 @@
 	    Are you a graduate student in deaf education, audiology or speech pathology interested to support our programs? Please email info@childrenwithhearingloss.org for information about how to apply.
 	</p>
 	</div>
+    <hr>
 </div>
 
 <div class="row">
