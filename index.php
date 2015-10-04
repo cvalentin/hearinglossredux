@@ -2,14 +2,14 @@
 
 	<div class="row">
 		<div class="small-12 column">
-	<div class="image-carousel">
-	  <div><img src="images/home/home-1.jpg" alt="slide 1" /></div>
-	  <div><img src="images/home/home-2.jpg" alt="slide 2" /></div>
-	  <div><img src="images/home/home-3.jpg" alt="slide 3" /></div>
-	  <div><img src="images/home/home-4.jpg" alt="slide 4" /></div>
+			<div class="image-carousel">
+			  <div><img src="images/home/home-1.jpg" alt="slide 1" /></div>
+			  <div><img src="images/home/home-2.jpg" alt="slide 2" /></div>
+			  <div><img src="images/home/home-3.jpg" alt="slide 3" /></div>
+			  <div><img src="images/home/home-4.jpg" alt="slide 4" /></div>
+			</div>
+		</div>
 	</div>
-</div>
-</div>
 
 <div class="row">
 	<div id="mission-statement-large" class="large-12 show-for-large-only">

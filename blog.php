@@ -81,8 +81,8 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 			<?php
 			}
 			?>
-			<div class="blog-text <?php echo $columnStyle ?> column">
-				<h4><?php echo $post->title; ?></h4>
+			<div class="blog-content <?php echo $columnStyle ?> column">
+				<h3><?php echo $post->title; ?></h3>
 				<p class="blog-date">Last Updated: <?php echo $postDate ?> </p>
 				<p>
 				<?php
