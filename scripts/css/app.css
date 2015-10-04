@@ -35,6 +35,10 @@ Grey: #efefef; */
     background: #FFFFFF;
 }
 
+.top-bar-section ul li a:hover {
+    background-color: #f96707 !important;
+}
+
 .top-bar-section li.divider {
     background: #888888;
 }
