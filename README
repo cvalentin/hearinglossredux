@@ -1,1 +1,17 @@
-#Placeholder Title
+#How the site is designed
+
+
+The site is currently designed using a Header/Footer template system.
+
+All navigation HTML and the <head> HTML is located in header.php.
+The footer is located in footer.php.
+
+Each page is loaded as it's own page (About is in about.php, etc) that contains the HTML for each page.
+
+For the UI framework we used Foundation, with it's docs located here:
+http://foundation.zurb.com/
+
+All the custom CSS is located in /scripts/app.css, with comments spaced out for each page.
+
+Locations has a commented out template for adding additional locations if needed.
+

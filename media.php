@@ -62,6 +62,14 @@
 					<img class = "th tv" src="images/video-placeholder.jpg" title="Talk Vietnam w/ Paige Stringer">				
 				</a>
 			</li>
+			<!-- Example media object
+			<li>
+				<a href="*INSERT_LINK_HERE*">
+					<img class = "th tv" src="*INSERT_IMAGE_LINK_HERE*" title="*INSERT_TITLE_HERE*">				
+				</a>
+			</li>
+
+			-->
 		</ul>
 	</div>
 </div>
