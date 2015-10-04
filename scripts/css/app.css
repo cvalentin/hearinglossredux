@@ -259,6 +259,11 @@ footer hr{
     width: 100%;
 }
 
+.blog-date {
+    font-style: italic;
+    font-size: 10pt;
+}
+
 /* ======================== Shared ======================== */
 
 .highlighted {
