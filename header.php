@@ -25,8 +25,10 @@ $page_name = "Home";
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
+            <a href="/index.php">
             <img src="images/symbol.png" id="logo" class="show-for-medium-up">
             <h1 id="logo_name" class="text-medium">Global Foundation for Children With Hearing Loss</h1>
+            </a>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li id="menu-icon" class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
