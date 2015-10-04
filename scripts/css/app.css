@@ -23,6 +23,7 @@ Grey: #efefef; */
 
 .top-bar .name h1 a{
     color: #000;
+    height: 100%;
 }
 
 .top-bar-section ul {
@@ -60,7 +61,6 @@ Grey: #efefef; */
 }
 
 .name h1{
-    border-left: 1px solid black;
     display: inline-block;
     width: 275px;
     padding-left: 10px;
@@ -70,7 +70,6 @@ Grey: #efefef; */
     font-family: georgia, times;
     font-weight: bold;
     line-height: normal;
-    margin-top: 5px;
     color: #1d69ad;
 }
 
@@ -79,38 +78,16 @@ Grey: #efefef; */
 }
 
 
-/** Changes the active menu item from default black to a gradient **/
-.top-bar-section ul li:active {
-    background: #000;
-    color: #00FF00;
-}
- 
-/** Changes the hover state of non active menu items **/
-.top-bar-section li:hover a {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
-    color: #000;
-}
  
 /** Changes non active menu items text color to black **/
 .top-bar-section ul li > a {
     color: #2d2d2d;
 }
  
-/** Changes the hover state of dropdown menu items **/
-.top-bar-section ul.dropdown li a:hover:not(.button) {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
-}
- 
-/** IMPORTANT fill for the ul dropdown container **/
-.top-bar-section ul.dropdown {
-    background: #333;
-    color: #fff;
-}
- 
-/** This fixes the position and the color of the dropdown arrow **/
-.top-bar-section .has-dropdown > a:after {
-    border-color: rgba(0, 0, 0, 1) transparent transparent;
-    margin-top: 2.5px;
+
+
+.contain-to-grid .top-bar {
+    padding-bottom: 10px;
 }
 
 
