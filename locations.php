@@ -13,7 +13,7 @@
 	<div class = "large-2 small-12 columns">
 		<!-- Thumbnail -->
 		<a class="th loc-thumb" href="#">
-				<img src="../images/locations/Vietnam.jpg">
+				<img class = "center-img" src="../images/locations/Vietnam.jpg">
 		</a>
 	</div>
 	<div class = "large-10 small-12 columns loc-content">
@@ -30,7 +30,7 @@
 	<div class = "large-2 small-12 columns">
 		<!-- Thumbnail -->
 		<a class="th loc-thumb" href="#">
-				<img src="../images/thumb.jpg">
+				<img class = "center-img" src="../images/thumb.jpg">
 		</a>
 	</div>
 	<div class = "large-10 small-12 columns loc-content">
