@@ -1,3 +1,10 @@
+/* CONSTANTS
+Blue: #1d69ad;
+Orange: #f96707;
+Brown: #665431;
+Grey: #efefef;
+
+*/
 p.footer, ul.footer {
 	font-size: 12px;
 
@@ -10,6 +17,7 @@ p.footer, ul.footer {
 .top-bar{
     background: none;
     background-color: white;
+    margin-bottom: 5px;
 }
 
 .top-bar .name h1 a{
@@ -47,6 +55,25 @@ p.footer, ul.footer {
     box-shadow:0 0 0 1px #000000, 0 7px 0 1px #000000, 0 14px 0 1px #000000;
 }
 
+.name img{
+    height: 45px;
+    vertical-align: top;
+}
+
+.name h1{
+    border-left: 1px solid black;
+    display: inline-block;
+    width: 275px;
+    padding-left: 10px;
+}
+
+#logo_name{
+    font-family: georgia, times;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 5px;
+    color: #1d69ad;
+}
 
 /** reminder **/
 
