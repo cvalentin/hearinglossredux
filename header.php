@@ -21,7 +21,7 @@ $page_name = "Home";
     </head>
     <body>
 
-    <div class="sticky">
+    <div class="sticky navbar">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
