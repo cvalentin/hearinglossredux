@@ -89,7 +89,6 @@ Grey: #efefef; */
 }
  
 
-
 .contain-to-grid .top-bar {
     padding-bottom: 10px;
 }
@@ -184,7 +183,7 @@ ul.slick-dots{
 
 .loc-thumb {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .loc-content {
@@ -269,6 +268,10 @@ p{
 
 .highlighted {
     color: #f96707;
+}
+
+.highlight-this:hover{
+    background-color: red; 
 }
 
 .full-width {
