@@ -10,7 +10,7 @@ class HttpContent {
     // https://console.developers.google.com/project/gcwhl-blogger/apiui/credential
     // Log in with paige's google account to view the key and related information.
 	public $key = 'AIzaSyDuk95h9wdFcgK4WkpyP6I1DtWUCG_zI8Y';
-    public $maxResults = 3; // max number of posts in result set
+    public $maxResults = 10; // max number of posts in result set
     public $orderBy = 'published'; // most recently published first
     public $fetchImages = 'true';
 }
@@ -81,6 +81,7 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 				</p>
 				<p><a href="<?php echo $post->url ?>">...read more</a></p>
 			</div>
+			<hr>
 		</div>
 		<?php } ?>
 <?php require("footer.php"); ?>
