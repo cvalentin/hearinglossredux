@@ -19,12 +19,10 @@ class HttpContent {
 // Blogger API: https://developers.google.com/blogger/docs/3.0/reference/index
 // Example how to use: https://developers.google.com/blogger/docs/3.0/using
 
+// This function calls the API and returns the list of blog posts up to "maxResults in HttpContent"
 function CallAPI($method, $url, $data)
 {
 	$url = sprintf("%s?%s", $url, http_build_query($data));
-	
-	echo $url;
-
     $curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 	$curl_response = curl_exec($curl);
@@ -40,13 +38,22 @@ function CallAPI($method, $url, $data)
 	    die('error occured: ' . $decoded->response->errormessage);
 	}
 	// echo 'response ok!';
-    return $decoded;
+    return $decoded->items;
 }
 
-// https://developers.google.com/blogger/docs/3.0/reference/blogs
-
+https://developers.google.com/blogger/docs/3.0/reference/posts/list
 $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
-var_export($postsList);
 ?>
-
+		<?php foreach($postsList as $key => $post) { ?>
+		<div class="blog-row row">
+			<div class="blog-image small-4 column">
+				<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=275%C3%97275&w=275&h=275"?>
+			</div>
+			<div class="blog-text small-8 column">
+				<h5><?php echo $post->title; ?></h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<p><a href="...">...read more</a></p>
+			</div>
+		</div>
+		<?php } ?>
 <?php require("footer.php"); ?>

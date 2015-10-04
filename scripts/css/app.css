@@ -208,6 +208,12 @@ footer p {
     list-style-type: none;
 }
 
+/******** Blog **********/
+
+.blog-row {
+    margin-top: 10px;
+}
+
 /* ======================== Shared ======================== */
 
 .highlighted {
