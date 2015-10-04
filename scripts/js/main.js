@@ -4,5 +4,5 @@ $(document).ready(function(){
 	$('.image-carousel').slick({
 		dots: true,
 		mobileFirst: true
-	})
+	});
 });

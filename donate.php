@@ -10,6 +10,7 @@
 	</div>
 </div>
 
+<div class="content-spacing">
 	<div class = "row">
 		<div class = "large-4 small-12 columns">
 			<h2>Donate Online</h2>
@@ -36,6 +37,8 @@
 
 		</div>
 	</div>
+</div>
+
 
 <div class="row">
 	<hr>
