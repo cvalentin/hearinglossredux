@@ -6,6 +6,7 @@
     background: none;
     background-color: white;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .top-bar .name h1 a{
@@ -15,6 +16,7 @@
 .top-bar-section ul {
     background: none;
     text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
@@ -98,14 +100,18 @@
 
 
 /****** Footer ******/
-
 footer div {
     text-align: center;
+    font-size: 10pt;
 }
 
 footer p {
     margin-bottom: 0;
+    font-size: inherit;
+
 }
+
+
 
 /* ======================== Pages ======================== */
 
@@ -168,6 +174,7 @@ footer p {
 
 .navbar{
     border-bottom: 1px solid #000;
+    background: #FFFFFF;
 }
 
 
@@ -205,5 +212,4 @@ footer p {
     margin-left: auto;
     margin-right: auto;
 }
-
 
