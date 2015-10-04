@@ -29,10 +29,10 @@
 			The Global Foundation For Children With Hearing Loss is expanding its work to Ecuador in a three year initiative with the Ecuador Ministry of Health. Greater awareness, systematic improvements to the quality of care in prevention, diagnosis and habilitation, and the training of locally-based professionals will enable the country to more fully leverage their pediatric hearing health program. More information to come soon about this exciting new program.
 		</p>
 	</div>
-	<hr>
 </div>
 <!--
 <div class = "row">
+	<hr>
 	<div class = "large-2 small-12 small-centered large-uncentered columns"><img class="th" src="images/locations/equador.jpg"></div>
 	<div class = "large-10 small-12 columns loc-content">
 		<h4>This is a title.</h4>

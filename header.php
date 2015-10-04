@@ -1,15 +1,7 @@
-<?php 
-require('config.php');
-
-//Temp variables
-$page_name = "Home";
-
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
-      <title><?php echo $page_name . " - " . $title; ?></title>
+      <title>Global Foundation for Children With Hearing Loss</title>
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
       <link rel="stylesheet" href="scripts/css/foundation.css">
