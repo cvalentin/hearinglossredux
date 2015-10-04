@@ -162,6 +162,10 @@ footer hr{
     font-size: 18pt;
 }
 
+ul.slick-dots{
+    margin: 0;
+}
+
 /****** Location ******/
 
 .loc-element {
