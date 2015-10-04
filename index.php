@@ -15,10 +15,10 @@
 
 <div class="row">
 	<div id="mission-statement-large" class="large-12 show-for-large-only">
-		<p>The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
+		<p class="text-xlarge">The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
 	</div>
 	<div id="mission-statement-small" class="small-12 show-for-small-up hide-for-large-up">
-		<p>The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
+		<p class="text-medium">The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
 	</div>
 </div>
 
