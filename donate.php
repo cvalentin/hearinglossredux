@@ -12,8 +12,8 @@
 		<hr>
 		<div class = "large-4 small-12 columns">
 			<h2>Donate Online</h2>
-			Image goes here <br>
 			<p>Contributions via PayPal can be made by clicking on the "Donate with PayPal" button.</p>
+			<img id = "donate-button" src="images/paypal-button.gif">
 		</div>
 		<div class = "large-4 small-12 columns donate-line">
 			<h2>Donate by Check</h2>

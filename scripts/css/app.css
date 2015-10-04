@@ -137,13 +137,24 @@ footer p {
     margin-top: 20px;
 }
 
-#mission-statement p {
+#mission-statement-large, #mission-statement-small {
+    text-align: justify;
+}
+
+#mission-statement-large p {
     font-size: 25pt;
 }
 
+#mission-statement-small p {
+    font-size: 12pt;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
 .home-tile-container {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .home-tile {
@@ -151,6 +162,7 @@ footer p {
     border-radius: 5px;
     padding: 10px;
     height: 100%;
+    margin-bottom: 15px;
 }
 
 .home-tile img {
@@ -203,6 +215,12 @@ footer p {
 .donate-line {
     border-right: 1px solid #DDD;
     border-left: 1px solid #DDD;
+}
+
+#donate-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

@@ -1,23 +1,31 @@
 <?php require("header.php"); ?>
 
-<section> 
-	<div id="home-carousel"class="image-carousel row small-12">
-		<div><img src="images/home/home-1.jpg"/></div>
-		<div><img src="images/home/home-2.jpg"/></div>
-		<div><img src="images/home/home-3.jpg"/></div>
-		<div><img src="images/home/home-4.jpg"/></div>
-	</div>
-</section>
-<section>
-	<hr>
-	<div id="mission-statement" class="row small-12">
+
+<div class="row">
+	<ul class="example-orbit" data-orbit>
+  <li class="active"><img src="images/home/home-1.jpg" alt="slide 1" /></li>
+  <li><img src="images/home/home-2.jpg" alt="slide 2" /></li>
+  <li><img src="images/home/home-3.jpg" alt="slide 3" /></li>
+  <li><img src="images/home/home-4.jpg" alt="slide 4" /></li>
+</ul>
+	
+</div>
+
+<hr>
+
+<div class="row">
+	<div id="mission-statement-large" class="large-12 show-for-large-only">
 		<p>The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
 	</div>
-</section>
+	<div id="mission-statement-small" class="small-12 show-for-small-only">
+		<p>The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
+	</div>
+</div>
 
-<section class="teststuff">
-	<hr>
-	<div class="home-tile-container row small-collapse large-uncollapse" data-equalizer>
+<hr>
+
+<div class="row home-tile-container">
+	<div class="small-collapse large-uncollapse" data-equalizer>
 		<div class="small-12 medium-4 large-4 column" data-equalizer-watch>
 			<div class="home-tile">
 				<h3>Success Stories</h3>
@@ -40,6 +48,6 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 <?php require("footer.php"); ?>

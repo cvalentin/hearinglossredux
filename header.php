@@ -14,9 +14,6 @@ $page_name = "Home";
       <meta name="viewport" content="width=device-width" />
       <link rel="stylesheet" href="scripts/css/foundation.css">
       <link rel="stylesheet" href="scripts/css/app.css">
-      <link rel="stylesheet" href="scripts/slick/slick.css">
-      <link rel="stylesheet" href="scripts/slick/slick-theme.css">
-      <script src="scripts/js/vendor/modernizr.js"></script>
       <script src="scripts/js/vendor/modernizr.js"></script>
     </head>
     <body>
