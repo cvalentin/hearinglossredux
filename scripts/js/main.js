@@ -1,10 +1,8 @@
-$(document).load(function{
+$(document).ready(function(){
+	$(document).foundation();
+
 	$('.image-carousel').slick({
 		dots: true,
 		mobileFirst: true
 	});
-});
-
-$(document).ready(function(){
-	$(document).foundation();
 });
