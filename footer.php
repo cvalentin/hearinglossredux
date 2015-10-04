@@ -13,6 +13,8 @@
           </div>
           <div class="small-12 large-12 small-centered columns">
             <div>
+              <div><i class="fa fa-twitter"></i><a href="https://twitter.com/gfhearingloss"> Twitter</a></div>
+              <div><i class="fa fa-facebook"></i><a href="https://www.facebook.com/Global-Foundation-for-Children-with-Hearing-Loss-98861433072/timeline/"> Facebook</a> </div>
               <div><i class="fa fa-phone text-small"></i> (206) 618-4201</div>
               <div><i class="fa fa-envelope"></i><a href="mailto:info@childrenwithhearingloss.org"> info@childrenwithhearingloss.org</a></div>
               <p class="text-small">The Global Foundation for Children with Hearing Loss is a 501(c)3 Organization established in 2009.</p>

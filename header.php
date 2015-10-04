@@ -11,11 +11,12 @@ $page_name = "Home";
     <head>
       <title><?php echo $page_name . " - " . $title; ?></title>
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-      <meta name="viewport" content="width=device-width" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
       <link rel="stylesheet" href="scripts/css/foundation.css">
-      <link rel="stylesheet" href="scripts/css/app.css">
+      
       <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css"/>
+      <link rel="stylesheet" href="scripts/css/app.css">
       <script src="scripts/js/vendor/modernizr.js"></script>
     </head>
     <body>
@@ -24,7 +25,7 @@ $page_name = "Home";
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
-            <img src="images/symbol.png" id="logo" class="show-for-large-only">
+            <img src="images/symbol.png" id="logo" class="show-for-medium-up">
             <h1 id="logo_name" class="text-medium">Global Foundation for Children With Hearing Loss</h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->

@@ -76,7 +76,7 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 			{
 		?>
 			<div class="blog-image-container small-12 medium-6 large-4 column">
-				<img src="<?php echo $post->images[0]->url; ?>" />
+				<img class="th" src="<?php echo $post->images[0]->url; ?>" />
 			</div>
 			<?php
 			}
