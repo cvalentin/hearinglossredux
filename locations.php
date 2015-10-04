@@ -20,7 +20,6 @@
 	</div>
 	<hr>
 </div>
-<<<<<<< HEAD
 <!-- 
 <div class="row">	
 	<div class="large-2 small-12 small-centered large-uncentered columns"><img src="images/locations/vietnam2.jpg"></div>
