@@ -49,29 +49,3 @@ $page_name = "Home";
         </section>
       </nav>
     </div>
-
-    <!--
-        <nav class="top-bar data-topbar">
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="#"><?php echo $title ?></a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-          </ul>
-          <section class="top-bar-section">
-            <ul class="title-area">
-              Global Foundation for Children With Hearing Loss
-            </ul>
-            <ul class="right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Donate</a></li>
-              <li><a href="#">Media</a></li>
-              <button>Login</button>
-            </ul>
-          </section>
-        </nav>
-        -->
