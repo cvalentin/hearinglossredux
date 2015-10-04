@@ -3,6 +3,8 @@ $(document).ready(function(){
 
 	$('.image-carousel').slick({
 		dots: true,
-		mobileFirst: true
+		mobileFirst: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
 	});
 });
