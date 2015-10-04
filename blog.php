@@ -1,5 +1,10 @@
 <?php require("header.php");
 
+// make request to blogger API then display "maxResult" most recent blog posts. 
+// Use the IP address of the requestor so that we don't hit the API cap easily.
+// Blogger API: https://developers.google.com/blogger/docs/3.0/reference/index
+// Example how to use: https://developers.google.com/blogger/docs/3.0/using
+
 $blogId = '2282749304274760399'; 
 $baseApiUrl = 'https://www.googleapis.com/blogger/v3/';
 $blogByIdUrlFormat = $baseApiUrl . 'blogs/%s/'; // https://www.googleapis.com/blogger/v3/blogs/{blogId}/
@@ -13,17 +18,18 @@ class HttpContent {
     public $maxResults = 10; // max number of posts in result set
     public $orderBy = 'published'; // most recently published first
     public $fetchImages = 'true';
+    
+    public function __construct() {
+    	// set the IP to the IP of the requesting client so we don't hit API limits quickly.
+	    $this->userIp = $_SERVER['REMOTE_ADDR'];
+	}
 }
-
-// make request to blogger API then display "maxResult" most recent blog posts. 
-// Use the IP address of the requestor so that we don't hit the API cap easily.
-// Blogger API: https://developers.google.com/blogger/docs/3.0/reference/index
-// Example how to use: https://developers.google.com/blogger/docs/3.0/using
 
 // This function calls the API and returns the list of blog posts up to "maxResults in HttpContent"
 function CallAPI($method, $url, $data)
 {
 	$url = sprintf("%s?%s", $url, http_build_query($data));
+	echo $url;
     $curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 	$curl_response = curl_exec($curl);
@@ -52,25 +58,28 @@ function limitWords($string, $word_limit){
 https://developers.google.com/blogger/docs/3.0/reference/posts/list
 $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 ?>
-		<?php foreach($postsList as $key => $post) {?>
+		<?php foreach($postsList as $key => $post) 
+		{
+		?>
 		<div class="blog-row row">
 		<?php
 			$hasImages = count($post->images) > 0;
-			$columnStyle;
+			// $columnStyle;
 			if($hasImages){
 				$columnStyle = "small-12 medium-6 large-8";
 			} else {
 				$columnStyle = "small-12 medium-12 large-12";
 			}
 
-			if($hasImages){
+			if($hasImages)
+			{
 		?>
 			<div class="blog-image-container small-12 medium-6 large-4 column">
 				<img src="<?php echo $post->images[0]->url; ?>" />
 			</div>
-		<?php
+			<?php
 			}
-		?>
+			?>
 			<div class="blog-text <?php echo $columnStyle ?> column">
 				<h4><?php echo $post->title; ?></h4>
 				<p>
@@ -83,5 +92,7 @@ $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 			</div>
 			<hr>
 		</div>
-		<?php } ?>
+		<?php 
+		} 
+		?>
 <?php require("footer.php"); ?>
