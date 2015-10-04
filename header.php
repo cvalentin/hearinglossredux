@@ -21,7 +21,7 @@ $page_name = "Home";
     </head>
     <body>
 
-    <div class="sticky">
+    <div class="sticky navbar">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
           <li class="name">
@@ -34,13 +34,13 @@ $page_name = "Home";
         <section class="top-bar-section">
           <!-- Right Nav Section -->
           <ul class="right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Donate</a></li>
-            <li><a href="#">Media</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="volunteer.php">Volunteer</a></li>
+            <li><a href="locations.php">Locations</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="donate.php">Donate</a></li>
+            <li><a href="media.php">Media</a></li>
             <button>Login</button>
           </ul>
           <!-- Left Nav Section -->
@@ -50,29 +50,3 @@ $page_name = "Home";
         </section>
       </nav>
     </div>
-
-    <!--
-        <nav class="top-bar data-topbar">
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="#"><?php echo $title ?></a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-          </ul>
-          <section class="top-bar-section">
-            <ul class="title-area">
-              Global Foundation for Children With Hearing Loss
-            </ul>
-            <ul class="right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Donate</a></li>
-              <li><a href="#">Media</a></li>
-              <button>Login</button>
-            </ul>
-          </section>
-        </nav>
-        -->

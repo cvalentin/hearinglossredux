@@ -1,8 +1,6 @@
-        <footer class="row full-width">
-          <div class="large-1 column"><a href="">Contact Us</a></div>
-          <div class="large-2 column"><a href="mailto:info@childranwithhearingloss.org">info@childranwithhearingloss.org</a></div>
-          <div class="large-2 column"><a href="">(206)618-4201</a></div>
-          <div class="small-12 large-7 column">
+        <footer class="row full-width footer">
+          <div class="small-12 large-5 large-offset-1 column"> Contact Us: <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a> <a href="">(206) 618-4201</a></div>
+          <div class="small-12 large-6 column">
             <p>The Global Foundation for Children with Hearing Loss is a 501(c)3 Organization established in 2009.</p>
           </div>
         </footer>
