@@ -8,12 +8,14 @@
 	</div>
 </section>
 <section>
+	<hr>
 	<div id="mission-statement" class="row small-12">
 		<p>The Global Foundation for Children With Hearing Loss aims to make a <span class="highlighted"> direct and lasting impact on the futures of thousands of deaf and hard of hearing children</span> around the world.</p>
 	</div>
 </section>
 
 <section>
+	<hr>
 	<div class="home-tile-container row small-collapse large-uncollapse" data-equalizer>
 		<div class="small-12 medium-4 large-4 column" data-equalizer-watch>
 			<div class="home-tile">
