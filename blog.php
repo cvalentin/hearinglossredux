@@ -10,8 +10,9 @@ class HttpContent {
     // https://console.developers.google.com/project/gcwhl-blogger/apiui/credential
     // Log in with paige's google account to view the key and related information.
 	public $key = 'AIzaSyDuk95h9wdFcgK4WkpyP6I1DtWUCG_zI8Y';
-    public $maxResults = 3; // max number of posts in result set
+    public $maxResults = 10; // max number of posts in result set
     public $orderBy = 'published'; // most recently published first
+    public $fetchImages = 'true';
 }
 
 // make request to blogger API then display "maxResult" most recent blog posts. 
@@ -41,19 +42,46 @@ function CallAPI($method, $url, $data)
     return $decoded->items;
 }
 
+function limitWords($string, $word_limit){
+    $allWords = explode(" ", strip_tags($string));
+    $limitedWords = implode(" ", array_splice($allWords, 0, $word_limit));
+    return $limitedWords;
+}
+
+
 https://developers.google.com/blogger/docs/3.0/reference/posts/list
 $postsList = CallAPI("GET", sprintf($postUrlFormat, $blogId), new HttpContent);
 ?>
-		<?php foreach($postsList as $key => $post) { ?>
+		<?php foreach($postsList as $key => $post) {?>
 		<div class="blog-row row">
-			<div class="blog-image small-4 column">
-				<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=275%C3%97275&w=275&h=275"?>
+		<?php
+			$hasImages = count($post->images) > 0;
+			$columnStyle;
+			if($hasImages){
+				$columnStyle = "small-12 medium-6 large-8";
+			} else {
+				$columnStyle = "small-12 medium-12 large-12";
+			}
+
+			if($hasImages){
+		?>
+			<div class="blog-image-container small-12 medium-6 large-4 column">
+				<img src="<?php echo $post->images[0]->url; ?>" />
 			</div>
-			<div class="blog-text small-8 column">
-				<h5><?php echo $post->title; ?></h5>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p><a href="...">...read more</a></p>
+		<?php
+			}
+		?>
+			<div class="blog-text <?php echo $columnStyle ?> column">
+				<h4><?php echo $post->title; ?></h4>
+				<p>
+				<?php
+					echo limitWords($post->content, 85);
+				?>
+				...
+				</p>
+				<p><a href="<?php echo $post->url ?>">...read more</a></p>
 			</div>
+			<hr>
 		</div>
 		<?php } ?>
 <?php require("footer.php"); ?>
