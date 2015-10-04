@@ -298,3 +298,9 @@ footer hr{
 #login-button {
     margin-left: 5px;
 }
+
+.center-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

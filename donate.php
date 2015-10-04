@@ -1,15 +1,16 @@
 <?php require("header.php"); ?>
-<div class = "row">
-	<div class= "large-11 small-12 small-centered columns">
-		<h3 class = "text-center donate-header">
-			Supply of hearing aids in developing countries meets just 3% of demand. <br>
-			<span class="highlighted"> Let's close the gap.</span>
-		</h3> 
+<div class="headline-section">
+	<div class = "row">
+		<div class= "large-11 small-12 small-centered columns">
+			<h3 class = "text-center donate-header">
+				Supply of hearing aids in developing countries meets just 3% of demand. <br>
+				<span class="highlighted"> Let's close the gap.</span>
+			</h3> 
+		</div>
 	</div>
 </div>
 
 	<div class = "row">
-		<hr>
 		<div class = "large-4 small-12 columns">
 			<h2>Donate Online</h2>
 			<p>Contributions via PayPal can be made by clicking on the "Donate with PayPal" button.</p>
@@ -36,9 +37,9 @@
 		</div>
 	</div>
 
-<div class = "row">
+<div class="row">
 	<hr>
-	<div class = "small-10 small-offset-1 columns">
+	<div class="text-center small-10 small-offset-1 columns">
 		<p>
 			The Global Foundation for Children With Hearing Loss is a non-profit, 501(c)(3) organization. A tax receipt will be mailed to you recognizing your contribution. Thank you for your support.</p>
 		</p>
