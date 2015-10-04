@@ -19,13 +19,12 @@
 		</p>
 	</div>
 </div>
-
 <hr>
 
 <div class="row">	
 	<div class = "large-2 small-12 small-centered large-uncentered columns"><img src="images/locations/vietnam2.jpg"></div>
 	<div class = "large-10 small-12 columns loc-content">
-		<h4>This is a title.</h4>
+		<h2>This is a title.</h2>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
 		</p>
@@ -35,12 +34,11 @@
 <div class = "row">
 	<div class = "large-2 small-12 small-centered large-uncentered columns"><img src="images/locations/equador.jpg"></div>
 	<div class = "large-10 small-12 columns loc-content">
-		<h4>This is a title.</h4>
+		<h2>This is a title.</h2>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan semper velit, eu dictum ligula. Nunc gravida diam at erat euismod molestie. Proin ornare lorem ut magna volutpat, vestibulum facilisis mi condimentum. Etiam imperdiet ante et leo suscipit faucibus.
 		</p>
 	</div>
 </div>
-
 
 <?php require("footer.php"); ?>

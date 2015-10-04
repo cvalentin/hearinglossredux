@@ -11,30 +11,33 @@
     </div>
 </div>
 
-<div class="row">
-	<div class = "small-12 small-centered columns">
-	<h2>Volunteer Opportunities for Professionals</h2><br>	
-	<p>
-		We welcome credentialed audiologists, speech language pathologists, 
-	    early intervention specialists, and deaf education professionals to 
-	    join our volunteer team.   If you are interested in helping children 
-	    with hearing loss in low and middle income countries, we'd love to 
-	    hear from you! Involvement with our programs typically requires a 2 
-	    week in-country commitment.  Applicants must have at least a Master's 
-	    degree in audiology, deaf education, or speech pathology. Click here 
-	    for perspectives on the experience from some of our volunteer 
-	    professionals. To apply, please send a cover letter and resume to 
-	    <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a>
-	</p>
-	</div>
-    <hr>
+<div class="content-spacing">
+    <div class="row">
+    	<div class = "small-12 small-centered columns">
+    	<h2>Volunteer Opportunities for Professionals</h2><br>	
+    	<p>
+    		We welcome credentialed audiologists, speech language pathologists, 
+    	    early intervention specialists, and deaf education professionals to 
+    	    join our volunteer team.   If you are interested in helping children 
+    	    with hearing loss in low and middle income countries, we'd love to 
+    	    hear from you! Involvement with our programs typically requires a 2 
+    	    week in-country commitment.  Applicants must have at least a Master's 
+    	    degree in audiology, deaf education, or speech pathology. Click here 
+    	    for perspectives on the experience from some of our volunteer 
+    	    professionals. To apply, please send a cover letter and resume to 
+    	    <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a>
+    	</p>
+    	</div>
+        <hr>
+    </div>
 </div>
+
 
 <div class="row">
 	<div class = "small-12 small-centered columns">
 	<h2>Volunteer Opportunities for Graduate Students</h2><br>	
 	<p>
-	    Are you a graduate student in deaf education, audiology or speech pathology interested to support our programs? Please email info@childrenwithhearingloss.org for information about how to apply.
+	    Are you a graduate student in deaf education, audiology or speech pathology interested to support our programs? Please email <a href="mailto:info@childrenwithhearingloss.org">info@childrenwithhearingloss.org</a> for information about how to apply.
 	</p>
 	</div>
     <hr>

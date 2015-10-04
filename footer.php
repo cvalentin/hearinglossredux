@@ -13,9 +13,9 @@
           </div>
           <div class="small-12 large-12 small-centered columns">
             <div>
-              <div><i class="fa fa-phone"></i> (206) 618-4201</div>
+              <div><i class="fa fa-phone text-small"></i> (206) 618-4201</div>
               <div><i class="fa fa-envelope"></i><a href="mailto:info@childrenwithhearingloss.org"> info@childrenwithhearingloss.org</a></div>
-              <p>The Global Foundation for Children with Hearing Loss is a 501(c)3 Organization established in 2009.</p>
+              <p class="text-small">The Global Foundation for Children with Hearing Loss is a 501(c)3 Organization established in 2009.</p>
             </div>
           </div>
         </footer>

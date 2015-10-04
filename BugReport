@@ -1,0 +1,4 @@
+[Browser-Specific]
+
+[Design]
+-	Header.php browser resizing from medium to large leaves a gap between body and header where header resized to

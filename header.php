@@ -25,7 +25,7 @@ $page_name = "Home";
         <ul class="title-area">
           <li class="name">
             <img src="images/symbol.png" id="logo" class="show-for-large-only">
-            <h1 id="logo_name">Global Foundation for Children With Hearing Loss</h1>
+            <h1 id="logo_name" class="text-medium">Global Foundation for Children With Hearing Loss</h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li id="menu-icon" class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -33,13 +33,13 @@ $page_name = "Home";
         <section class="top-bar-section">
           <!-- Right Nav Section -->
           <ul class="right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="volunteer.php">Volunteer</a></li>
-            <li><a href="locations.php">Locations</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="donate.php">Donate</a></li>
-            <li><a href="media.php">Media</a></li>
+            <li class="text-small"><a href="index.php">Home</a></li>
+            <li class="text-small"><a href="about.php">About Us</a></li>
+            <li class="text-small"><a href="volunteer.php">Volunteer</a></li>
+            <li class="text-small"><a href="locations.php">Locations</a></li>
+            <li class="text-small"><a href="blog.php">Blog</a></li>
+            <li class="text-small"><a href="donate.php">Donate</a></li>
+            <li class="text-small"><a href="media.php">Media</a></li>
             <button id = "login-button">Login</button>
           </ul>
           <!-- Left Nav Section -->
