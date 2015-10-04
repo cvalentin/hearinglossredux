@@ -11,7 +11,7 @@
 </div>
 
 <div class="row">
-	<div class="large-2 small-12 small-centered large-uncentered columns loc-thumb"><img src="images/locations/vietnam.jpg"></div>
+	<div class="large-2 small-12 small-centered large-uncentered columns loc-thumb"><img class="th" src="images/locations/vietnam.jpg"></div>
 	<div class="large-10 small-12 columns loc-content">
 		<h4>Vietnam Deaf Education Program</h4>
 		<p>
